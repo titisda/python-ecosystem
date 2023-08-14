@@ -15,7 +15,7 @@ def parrot(voltage, state='a stiff', action='voom',
     :param action: optional
     :param type: optional
     """
-    print("-- This parrot wouldn't", action, end=' ')
+    print("-- This a parrot wouldn't", action, end=' ')
     print("if you put", voltage, "volts through it.")
     print("-- Lovely plumage, the", type)
     print("-- It's", state, "!")
@@ -28,7 +28,7 @@ if __name__ == '__main__':
     parrot(action='VOOOOOM', voltage=1000000)  # 2 keyword arguments
     parrot('a million', 'bereft of life',
            'jump')  # 3 positional arguments
-    parrot('a thousand',
+    parrot('the one thousand',
            state='pushing up the daisies')  # 1 positional, 1 keyword
 
     # Invalid
