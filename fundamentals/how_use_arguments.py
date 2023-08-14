@@ -19,7 +19,7 @@ def parrot(voltage, state='a stiff', action='voom',
     print("if you put", voltage, "volts through it.")
     print("-- Lovely plumage, the", type)
     print("-- It's", state, "!")
-
+    
 
 if __name__ == '__main__':
     parrot(1000)  # 1 positional argument

@@ -19,7 +19,7 @@ def find_files(suffix: str, path: str) -> List[str]:
         elif entry.is_dir():
             yield from find_files(suffix, entry.path)
 
-
+    
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Find all files with a given suffix in a path and its subdirectories.")
     parser.add_argument("suffix", type=str, help="The suffix of the files to find. Example: *.pdf")
