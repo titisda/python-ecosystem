@@ -16,7 +16,7 @@ import sys
 # import path can get very messy and hard to understand.
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import files
-
+   
 # option: 3
 # from . import files
 
@@ -35,7 +35,7 @@ def main():
         breakpoint()  # type n in PDB
         root = pathlib.Path(sys.argv[1]).resolve()
     except IndexError:
-        print("Need one argument: the root of the original file tree")
+        print("Need the argument: the root of the original file tree")
         raise SystemExit()
 
     # Re-create the file structure

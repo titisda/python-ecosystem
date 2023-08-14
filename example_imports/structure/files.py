@@ -9,7 +9,7 @@ def unique_path(directory, name_pattern):
 
 
 def add_empty_file(path):
-    """Create an empty file at the given path"""
+    """Create the empty file at the given path"""
     print(f"Create file: {path}")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.touch()
