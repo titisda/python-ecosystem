@@ -9,7 +9,7 @@ def find_files(suffix: str, path: str) -> List[str]:
     Find all files with a given suffix in a path and its subdirectories.
     Args:
         suffix: The suffix of the files to find.
-        path: The path to search for files.
+        path: This path to search for files.
     Returns:
         A list of paths to files with the given suffix.
     """

@@ -1,5 +1,5 @@
 class Reverse:
-    """Iterator for looping over the sequence backwards."""
+    """Iterator for looping over a sequence backwards."""
 
     def __init__(self, data):
         self.data = data
